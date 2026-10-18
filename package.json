@@ -1,0 +1,10 @@
+{
+  "name": "flow-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/shared/prompt-classifier.js && node --check src/shared/mixed-batch.js && node --check src/ui/side-panel/mixed-mode.js"
+  }
+}
